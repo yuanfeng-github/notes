@@ -187,6 +187,12 @@
 		<filter-name>encodingFiter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
+	  <!-- 处理PUT提交参数(只对基础表单生效) -->
+	  <filter>
+	    <filter-name>httpPutFormContentFilter</filter-name>
+	    <filter-class>org.springframework.web.filter.HttpPutFormContentFilter</filter-class>
+	  </filter>
+
 	<!-- springMVC前端控制器 -->
 	<servlet>
 		<servlet-name>springMVC</servlet-name>
@@ -448,11 +454,11 @@
 ###13.src/main/resources 新建文件 generatorConfig.xml
 	
 	<?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE generatorConfiguration
-PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
-"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
-
-<generatorConfiguration>
+	<!DOCTYPE generatorConfiguration
+	PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+	"http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+	
+	<generatorConfiguration>
 
 	<context id="mysql" targetRuntime="MyBatis3Simple"
 		defaultModelType="flat">
@@ -525,4 +531,4 @@ PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
 		myBatisGenerator.generate(null);
 		System.err.println("Generator OK"); 
 	}
-}
+	}
