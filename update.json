@@ -1,0 +1,31 @@
+{
+	"version": "0.5.0-rc.1",
+	"notes": "###    🚀 Features\r\n\r\n- 新增「剪贴板 > 内容设置 > 删除确认」配置项  -  by @ayangweb in https://github.com/EcoPasteHub/EcoPaste/issues/911 [(a4535)](https://github.com/EcoPasteHub/EcoPaste/commit/a4535d0)\r\n- 新增「历史记录 > 最大保留条数」配置项  -  by @ayangweb in https://github.com/EcoPasteHub/EcoPaste/issues/915 [(5e840)](https://github.com/EcoPasteHub/EcoPaste/commit/5e84034)\r\n- 新增「剪贴板 > 内容设置 > 自动排序」配置项  -  by @ayangweb in https://github.com/EcoPasteHub/EcoPaste/issues/925 [(4ab41)](https://github.com/EcoPasteHub/EcoPaste/commit/4ab4108)\r\n\r\n###    🐞 Bug Fixes\r\n\r\n- 修复 Windows 无法修改数据存储路径的问题  -  by @ayangweb in https://github.com/EcoPasteHub/EcoPaste/issues/927 [(77eb3)](https://github.com/EcoPasteHub/EcoPaste/commit/77eb3f8)\r\n\r\n#####     [View changes on GitHub](https://github.com/EcoPasteHub/EcoPaste/compare/v0.5.0-beta.2...v0.5.0-rc.1)",
+	"pub_date": "2025-01-06T06:09:24.447Z",
+	"platforms": {
+		"darwin-x86_64": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQjg0REZMRzRFTTRCK1BYeTVsMS9pSWlCdXhsS2txb3lxT0Q2alZHS29TMnJuREdvckdNNGprVnE0b2VmR2RkK0xEL0hIRytTZCtSQVZPd0w0WXdySWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzMTcwCWZpbGU6RWNvUGFzdGUuYXBwLnRhci5negptQUU4Vk1IeFg1NTJvbzJkV1RmRU40RlBJQncyNFBMazM1dVhDM21GZklGZmhyZ2RGOFRERW93MG16Rmh4dGZOZUpSRGxVQW9Ic2xRYncrK0RYR21EZz09Cg==",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_x64.app.tar.gz"
+		},
+		"darwin-aarch64": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQjFJWVZWd2cwOFNmNHpidE83VUlaZ2VHR1R0R05HS1lWQXo1aWZxdTE2bm85aFpOa0orMmdtUU1JeTZmRG9NZVEyRS9YZjdOTXhrbTMvS3E1S3FXZUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzMTc5CWZpbGU6RWNvUGFzdGUuYXBwLnRhci5negpFSmNIclNFTWlsa2l2R1lKZ2h2ZXdFL2dXMVVIaVRiS2R6bjRuTzdoQ3dRN2tGTkNTV2Z5Wlh4MllpdEZKSldFVXhxaGIwNXN0SnpKQzQwMHVjd2pBZz09Cg==",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_aarch64.app.tar.gz"
+		},
+		"linux-x86_64": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQnpFOWlISGVyaFJrd2ZMa3ZYUjB2b1ZBL0w2Y084SlJxUFFaNWNJN0pwSWZVV0cwS3RFYlJTNlpQZ0tQM0w2S0ZtVVcyb3RoQU5US3VjOTFEbytTSFFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzNDc2CWZpbGU6RWNvUGFzdGVfMC41LjAtcmMuMV9hbWQ2NC5BcHBJbWFnZQoxTjB2QVZOb2pHdFdOMG5nZ1FLMitzOVNBSHNVdW9IbmpvMm5NZmRkSlJtNDlXY3Y5T05MaExZTk1qa01RcytTNFJFaHNSREw4TkxvbzVXZko4blFDUT09Cg==",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_0.5.0-rc.1_amd64.AppImage"
+		},
+		"windows-x86_64": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQjZQS2poMlROQjl0a1JXVyt1OWdDTkNEbGtFVW9BU2U3Y3ZzWHZKbzY4VGM3cDVpWGlrNDcrNVpWVmZIR0RrSG9jY0g2blJVNmZ4MWV3WTVpNTBtOWc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzNzA1CWZpbGU6RWNvUGFzdGVfMC41LjAtcmMuMV94NjQtc2V0dXAuZXhlCnIzU0dpc3hZOFN5STBCd09KTDJyNFhyNUZRWUhUSHlnMVZZVDVHT0N1TzFqZ3h4eFZFMkdYSFNMNEVCb01xVGsvQkJjNy9uYWd6UmsvRXBvTjAvZkJBPT0K",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_0.5.0-rc.1_x64-setup.exe"
+		},
+		"windows-aarch64": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQjJib24xTWs4eGNPOUh1UWQ0bHVXcllxVWFueTBDRjE5WEpQMW9OUG1LcHY5VVFRNXNnTnQ0VUs2dkRvdjFPVjZyZi91aERUOEwzTzc2czhYeFNFOEFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzNzE3CWZpbGU6RWNvUGFzdGVfMC41LjAtcmMuMV9hcm02NC1zZXR1cC5leGUKMnBuYkluQnFkdDJnWFZ3Ry8wRVI1OW1ucElYK1BKRkhMZ1lsWmJ2NFljcFBkdzV1N05kdloxOTJhOExKNzd0ZkgvRlFGSnVya3FLbllPL25XV0pkQUE9PQo=",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_0.5.0-rc.1_arm64-setup.exe"
+		},
+		"windows-i686": {
+			"signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTR0dEMFB2cklFQjVkMmtmM2JnOTlwNlVra05JS3dHRlJyRVIrTzFaeVFxNlNiVko2U2l3dkN0TTRFWkI4MlljTTZCK0llcFdza2VEb0VzRnhUK3R2cVNtWU94b20zSFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzM2MTQzNzYxCWZpbGU6RWNvUGFzdGVfMC41LjAtcmMuMV94ODYtc2V0dXAuZXhlCjVkTjE5dGxTMDV1bzJBMDV5cE1SeGJvRzQ3R0dCWUt0N0o5bldSNjRqUWtsM0g2ckhvcXl1TnFzOTNhZkVKckNDa0RtODVPZ0VVVFBTYzNvWVIzVUN3PT0K",
+			"url": "https://gh-proxy.com/https://github.com/EcoPasteHub/EcoPaste/releases/download/v0.5.0-rc.1/EcoPaste_0.5.0-rc.1_x86-setup.exe"
+		}
+	}
+}
